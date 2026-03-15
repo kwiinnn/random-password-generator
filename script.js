@@ -32,6 +32,6 @@ pass1.addEventListener("click", () => {
 });
 
 pass2.addEventListener("click", () => {
-  navigator.clipboard.writeText(pass1.innerText);
+  navigator.clipboard.writeText(pass2.innerText);
   alert('Successfully copied!');
 });
