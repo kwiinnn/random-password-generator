@@ -28,5 +28,10 @@ button.addEventListener("click", () => {
 
 pass1.addEventListener("click", () => {
   navigator.clipboard.writeText(pass1.innerText);
-  console.log('Copied!');
+  alert('Successfully copied!');
+});
+
+pass2.addEventListener("click", () => {
+  navigator.clipboard.writeText(pass1.innerText);
+  alert('Successfully copied!');
 });
